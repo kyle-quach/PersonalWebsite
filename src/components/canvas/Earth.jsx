@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./jellyfish/scene.gltf");
+  const earth = useGLTF("./jellyfish (1)/scene.gltf");
 
   return (
     <primitive object={earth.scene} scale={0.5} position-y={2.4} rotation-y={0} />

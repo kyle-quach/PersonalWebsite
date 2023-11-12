@@ -150,7 +150,6 @@ const experiences = [
     date: "Jan 2022 - Jan 2023",
     points: [
       "Helped students to improve their understanding of the core concepts in Calculus, and Physics.",
-      "This is the most beautiful time in my life.",
     ],
   },
 

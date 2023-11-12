@@ -13,13 +13,12 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
-  const waveSvg = '<svg width="223px" height="223px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 10C5.48276 10 7.34483 7 7.34483 7C7.34483 7 9.2069 10 11.6897 10C14.1724 10 16.6552 7 16.6552 7C16.6552 7 19.1379 10 21 10" stroke="#1CA9C9" stroke-width="0.384" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M3 17C5.48276 17 7.34483 14 7.34483 14C7.34483 14 9.2069 17 11.6897 17C14.1724 17 16.6552 14 16.6552 14C16.6552 14 19.1379 17 21 17" stroke="#1CA9C9" stroke-width="0.384" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>'; // Replace with the path to your wave SVG file
 
 
   const oceanThemeStyle = {
     background: 'rgba(21, 34, 56, 0.9)', // Dark blue with some transparency for depth
     color: '#fff',
-    borderTop: '8px solid #1CA9C9', // Simulate the top border as the crest of a wave
+    borderTop: '10px solid #1CA9C9', // Simulate the top border as the crest of a wave
     position: 'relative', // Needed to position the wave SVG absolutely
   };
 
@@ -49,7 +48,6 @@ const ExperienceCard = ({ experience }) => {
         </div>
       }
     >
-      
       <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
       <p className='text-white text-[16px] font-semibold' style={{ margin: 0 }}>
         {experience.company_name}

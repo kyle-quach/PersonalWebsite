@@ -1,0 +1,8 @@
+Model Information:
+* title:	JellyFish
+* source:	https://sketchfab.com/3d-models/jellyfish-ac23cb21d5f742f79f5c9bfe5d38d10c
+* author:	3Dee (https://sketchfab.com/mellydeeis)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
