@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fish getting smashed
+* source:	https://sketchfab.com/3d-models/fish-getting-smashed-34b111e682f447faad4da9af3ca59f03
+* author:	Leo_Newman (https://sketchfab.com/Leo_Newman)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fish getting smashed" (https://sketchfab.com/3d-models/fish-getting-smashed-34b111e682f447faad4da9af3ca59f03) by Leo_Newman (https://sketchfab.com/Leo_Newman) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
