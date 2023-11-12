@@ -18,6 +18,7 @@ import {
   meta,
   starbucks,
   tesla,
+  fridgerage,
   shopify,
   carrent,
   jobit,
@@ -117,57 +118,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Founder",
+    company_name: "Fridge Rage",
+    icon: fridgerage,
+    iconBg: "#ce5b28",
+    date: "May 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Build a software using generative AI to help create innovative recipes to reduce waste of leftover food.",
+      "Leading a team, I architected an end-to-end web application leveraging React for the front-end, Java with SpringBoot for the back-end, OpenAI API with function calling to power the GenAI features and finally integrating AWS services like DynamoDB and Cognito",
+      "This project not only honed my skills in full-stack development but also gave me insights into team leadership, system architecture, and integration of various software components. ",
+      "Give it a try: https://www.fridgerage.com/"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Software Developer",
+    company_name: "Reverdan",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Part-time position working on a proof of concept project named Reverdan, whose focus is in health and pharmaceutical data analysis.",
+      "Implementing the UI using React components, Redux, React Router with Javascript, styling CSS by using the Bootstrap framework to provide a seamless and consistent user experience",
+      "In the back-end, I maintain the AWS infrastructure required to support the back-end such as the API gateway and Aurora Database under the supervision of the technical lead along with another developer."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Peer Tutor",
+    company_name: "Bodwell High School",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Helped students to improve their understanding of the core concepts in Calculus, and Physics.",
+      "This is the most beautiful time in my life.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
