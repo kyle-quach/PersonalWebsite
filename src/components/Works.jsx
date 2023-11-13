@@ -17,14 +17,22 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    style={{
+      backgroundColor: 'rgb(4 51 97 / 90%)', // Dark blue with opacity for depth
+      padding: '20px',
+      borderRadius: '15px',
+      maxWidth: '360px',
+      width: '100%',
+      cursor: 'pointer',    }}>
       <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+      options={{
+        max: 25, // Reduced the max tilt for subtlety
+        scale: 1.05, // Slight scale to give a lift on hover
+        speed: 400, // Adjusted for a smoother transition
+        glare: true, // Added a glare effect for a water-like reflection
+        "max-glare": 0.9, // Glare effect maxed at 50%
+      }}
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -36,7 +44,15 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              style={{
+                background: 'rgba(0, 0, 0, 0.8)', // Dark overlay for contrast
+                width: '40px',
+                height: '40px',
+                borderRadius: '50%',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}
             >
               <img
                 src={github}

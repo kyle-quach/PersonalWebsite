@@ -17,6 +17,10 @@ const FeedbackCard = ({
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+    style={{
+      background: 'linear-gradient(135deg, #023e8a 0%, #0096c7 100%)', // Ocean blue gradient
+      boxShadow: '0 4px 10px rgba(0, 0, 0, 0.3)' // Soft shadow for depth
+    }}
   >
     <p className='text-white font-black text-[48px]'>"</p>
 
@@ -28,7 +32,7 @@ const FeedbackCard = ({
           <p className='text-white font-medium text-[16px]'>
             <span className='blue-text-gradient'>@</span> {name}
           </p>
-          <p className='mt-1 text-secondary text-[12px]'>
+          <p className='mt-1 text-[#90e0ef] text-[12px]'>
             {designation} of {company}
           </p>
         </div>
@@ -48,6 +52,9 @@ const Feedbacks = () => {
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+        style={{
+          background: 'linear-gradient(135deg, #03045e 0%, #0077b6 100%)', // Darker ocean gradient for header
+        }}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>

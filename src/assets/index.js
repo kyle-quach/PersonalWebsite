@@ -20,18 +20,35 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import aws from "./tech/aws.jpg";
+import openai from "./tech/openai.png";
+import springboot from "./tech/springboot.png";
+import java from "./tech/java.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import fridgerage from "./company/fridgerage.png"
+import fridgerage from "./company/fridgerage.png";
+import bodwell from "./company/bodwell.jpg";
+import reverdan from "./company/reverdan.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import qrcodehunter from "./QRCodeHunter.png"
+import fridgerageproduct from "./fridgerageproduct.png"
+import personalwebsite from "./personalwebsite.png"
 export {
+  java,
+  aws,
+  openai,
+  springboot,
+  personalwebsite,
+  qrcodehunter,
+  fridgerageproduct,
+  reverdan,
+  bodwell,
   logo,
   backend,
   creator,

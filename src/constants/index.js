@@ -24,6 +24,15 @@ import {
   jobit,
   tripguide,
   threejs,
+  reverdan,
+  bodwell,
+  fridgerageproduct,
+  qrcodehunter,
+  personalwebsite,
+  aws,
+  springboot,
+  openai,
+  java,
 } from "../assets";
 
 export const navLinks = [
@@ -63,12 +72,28 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "AWS",
+    icon: aws,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "SpringBoot",
+    icon: springboot,
+  },
+  {
+    name: "OpenAI",
+    icon: openai,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "figma",
+    icon: docker,
   },
   {
     name: "JavaScript",
@@ -79,41 +104,10 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "TypeScript",
+    icon: java,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
@@ -133,8 +127,8 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "Reverdan",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: reverdan,
+    iconBg: "#ffffff",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Part-time position working on a proof of concept project named Reverdan, whose focus is in health and pharmaceutical data analysis.",
@@ -145,8 +139,8 @@ const experiences = [
   {
     title: "Peer Tutor",
     company_name: "Bodwell High School",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: bodwell,
+    iconBg: "#ffffff",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Helped students to improve their understanding of the core concepts in Calculus, and Physics.",
@@ -184,66 +178,78 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Fridge Rage",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web application using generative AI to help create recipes to reduce waste of leftover food. I architected an end-to-end web application leveraging React for the front-end, Java with SpringBoot for the back-end, OpenAI API with function calling to power the GenAI features and finally integrating AWS services like DynamoDB and Cognito.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "AWS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Generative AI",
         color: "pink-text-gradient",
       },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      }
     ],
-    image: carrent,
+    image: fridgerageproduct,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "QR Code Hunter",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " An Android application to gamify geo-caching QR codes. The project uses Java (Android SDK), XML for creating interfaces, and Firebase for infrastructure, and Figma for designing",
     tags: [
       {
-        name: "react",
+        name: "Android",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Java",
         color: "pink-text-gradient",
       },
+      {
+        name: "Figma",
+        color:"blue-text-gradient",
+      }
     ],
-    image: jobit,
+    image: qrcodehunter,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "3D Personal Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A personal website using Three.js for for rendering and animating the 3D object, TailwindCSS for styling, and React Three Fiber for creating 3D model. The website is hosted in AWS.",
     tags: [
       {
-        name: "nextjs",
+        name: "ThreeJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "AWS",
         color: "pink-text-gradient",
       },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
+    image: personalwebsite,
     source_code_link: "https://github.com/",
   },
 ];

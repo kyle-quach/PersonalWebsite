@@ -74,6 +74,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
           // Zooming the 3D image
           enableZoom={false}
           enableRotate={true} // Ensure this is true to allow rotation
