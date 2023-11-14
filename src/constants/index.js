@@ -52,7 +52,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Cybersecurity",
+    title: "Visual Reality",
     icon: web,
   },
   {
@@ -92,7 +92,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "figma",
+    name: "Docker",
     icon: docker,
   },
   {
@@ -104,7 +104,7 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "TypeScript",
+    name: "Java",
     icon: java,
   },
 
