@@ -200,7 +200,7 @@ const projects = [
       }
     ],
     image: fridgerageproduct,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/fridgerage2023/DEMO_FRIDGERAGE",
   },
   {
     name: "QR Code Hunter",
@@ -225,7 +225,7 @@ const projects = [
       }
     ],
     image: qrcodehunter,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/CMPUT301W23T17/JellyFizz",
   },
   {
     name: "3D Personal Portfolio",
@@ -250,7 +250,7 @@ const projects = [
       },
     ],
     image: personalwebsite,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kyle-quach/PersonalWebsite",
   },
 ];
 
