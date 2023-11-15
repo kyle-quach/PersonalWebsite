@@ -18,21 +18,22 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-    style={{
-      backgroundColor: 'rgb(4 51 97 / 90%)', // Dark blue with opacity for depth
-      padding: '20px',
-      borderRadius: '15px',
-      maxWidth: '360px',
-      width: '100%',
-      cursor: 'pointer',    }}>
+      style={{
+        backgroundColor: 'rgb(4 51 97 / 90%)', // Dark blue with opacity for depth
+        padding: '20px',
+        borderRadius: '15px',
+        maxWidth: '360px',
+        width: '100%',
+        cursor: 'pointer',
+      }}>
       <Tilt
-      options={{
-        max: 25, // Reduced the max tilt for subtlety
-        scale: 1.05, // Slight scale to give a lift on hover
-        speed: 400, // Adjusted for a smoother transition
-        glare: true, // Added a glare effect for a water-like reflection
-        "max-glare": 0.9, // Glare effect maxed at 50%
-      }}
+        options={{
+          max: 25, // Reduced the max tilt for subtlety
+          scale: 1.05, // Slight scale to give a lift on hover
+          speed: 400, // Adjusted for a smoother transition
+          glare: true, // Added a glare effect for a water-like reflection
+          "max-glare": 0.9, // Glare effect maxed at 50%
+        }}
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -42,24 +43,46 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              style={{
-                background: 'rgba(0, 0, 0, 0.8)', // Dark overlay for contrast
-                width: '40px',
-                height: '40px',
-                borderRadius: '50%',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
+          {
+  source_code_link ? (
+    <div
+      onClick={() => window.open(source_code_link, "_blank")}
+      style={{
+        background: 'rgba(0, 0, 0, 0.8)', // Dark overlay for contrast
+        width: '40px',
+        height: '40px',
+        borderRadius: '50%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <img
+        src={github}
+        alt='source code'
+        className='w-1/2 h-1/2 object-contain'
+      />
+    </div>
+  ) : (
+    <div
+      style={{
+        background: 'rgba(0, 0, 0, 0.8)', // Similar theme as the original
+        width: '80px',
+        height: '40px',
+        borderRadius: '15px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        color: 'white', // Example text color, adjust as needed
+        fontSize: '12px', // Example font size, adjust as needed
+        textAlign:"center"
+      }}
+    >
+      In Proccess 
+    </div>
+  )
+}
+
           </div>
         </div>
 
@@ -87,7 +110,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText} `}>Last Updated 2023-11-14</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
@@ -96,11 +119,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+        I find that working on projects is the best way for me to learn. 
+        There is something to be said for actually sitting down, thinking about how to solve the problem and actually implementing it. 
+        I’ve found that there are hidden challenges that I wouldn’t have seen if I had just designed a solution on paper.
         </motion.p>
       </div>
 

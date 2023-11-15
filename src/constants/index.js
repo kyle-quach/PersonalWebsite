@@ -5,25 +5,10 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
   mongodb,
-  git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
   fridgerage,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   reverdan,
   bodwell,
   fridgerageproduct,
@@ -33,6 +18,7 @@ import {
   springboot,
   openai,
   java,
+  crypto,
 } from "../assets";
 
 export const navLinks = [
@@ -47,6 +33,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "resume",
+    title: "Resume",
   },
 ];
 
@@ -251,6 +241,27 @@ const projects = [
     ],
     image: personalwebsite,
     source_code_link: "https://github.com/kyle-quach/PersonalWebsite",
+  },
+  {
+    name: "Market Mood Metrics",
+    description:
+    "A software to analyze news and predict cryptocurrency prices. It transforms the chaos of market sentiment into actionable insights by leveraging the influence of currrent news flow.",
+    tags: [
+      {
+        name: "Generative AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "LangChain",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crypto,
+    source_code_link: "",
   },
 ];
 

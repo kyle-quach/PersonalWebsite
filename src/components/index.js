@@ -8,9 +8,10 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-
+import ResumePage from './Resume';
 
 export {
+  ResumePage,
   Hero,
   Navbar,
   About,
