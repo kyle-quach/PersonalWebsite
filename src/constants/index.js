@@ -42,16 +42,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Visual Reality",
+    title: "Web Architecture",
+    icon: backend,
+  },
+  {
+    title: "Virtual Reality",
     icon: web,
   },
   {
-    title: "Augumented Reality",
+    title: "Cloud Infrastructure",
     icon: mobile,
-  },
-  {
-    title: "Web Architecture",
-    icon: backend,
   },
   {
     title: "Generative AI",
@@ -187,7 +187,15 @@ const projects = [
       {
         name: "Typescript",
         color: "blue-text-gradient",
-      }
+      },
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SpringBoot",
+        color: "green-text-gradient",
+      },
     ],
     image: fridgerageproduct,
     source_code_link: "https://github.com/fridgerage2023/DEMO_FRIDGERAGE",
